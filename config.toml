@@ -19,7 +19,7 @@ keywords = "blog,developer,personal,software"
 info = ["Developer"
 #    , "Magician"
 ]
-avatarURL = "images/matthijsdam.jpeg"
+avatarURL = "images/matthijsdam.png"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 #since = 2019
