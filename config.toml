@@ -16,10 +16,10 @@ author = "Matthijs Dam"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Matthijs Dam's personal website"
 keywords = "blog,developer,personal,software"
-info = ["Webdeveloper"
+info = ["Developer"
 #    , "Magician"
 ]
-avatarURL = "https://avatars.githubusercontent.com/u/10889691?s=200&u=0c325561f8cf3a1ebecb2cf1f3f0a3622e0f4144&v=4"
+avatarURL = "images/matthijsdam.jpeg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 #since = 2019
