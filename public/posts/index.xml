@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Matthijs Dam</title>
-    <link>http://www.matthijsdam.nl/posts/</link>
+    <link>https://www.matthijsdam.nl/posts/</link>
     <description>Recent content in Posts on Matthijs Dam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.matthijsdam.nl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.matthijsdam.nl/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Penthouse: automatically generate above-the-fold critical CSS</title>
-      <link>http://www.matthijsdam.nl/posts/generate-critical-css/</link>
+      <link>https://www.matthijsdam.nl/posts/generate-critical-css/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://www.matthijsdam.nl/posts/generate-critical-css/</guid>
+      <guid>https://www.matthijsdam.nl/posts/generate-critical-css/</guid>
       <description>Parsing and generating critical CSS can be a useful technique for improving the performance of your website. Critical CSS refers to the portion of your stylesheets that are necessary for rendering the above-the-fold content of your webpage. By extracting this critical CSS and inlining it into the head of your HTML document, you can ensure that your page is rendered quickly and efficiently.
 Here&amp;rsquo;s a simple example of how to parse and generate critical CSS using penthouse:</description>
     </item>

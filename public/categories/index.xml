@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Matthijs Dam</title>
-    <link>http://www.matthijsdam.nl/categories/</link>
+    <link>https://www.matthijsdam.nl/categories/</link>
     <description>Recent content in Categories on Matthijs Dam</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://www.matthijsdam.nl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://www.matthijsdam.nl/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
