@@ -34,7 +34,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* Grouping content
+/* Grouping projects
      ========================================================================== */
 /**
    * 1. Add the correct box sizing in Firefox.
@@ -121,7 +121,7 @@ sub {
 sup {
   top: -0.5em; }
 
-/* Embedded content
+/* Embedded projects
      ========================================================================== */
 /**
    * Remove the border on images inside links in IE 10.
