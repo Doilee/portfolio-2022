@@ -23,8 +23,8 @@ Here&amp;rsquo;s a simple example of how to parse and generate critical CSS usin
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.matthijsdam.nl/projects/</guid>
-      <description>Nutrition Glance Link to heading You can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using Chart.js. It&amp;rsquo;s a SPA (Single Page Application) where I used the following stack:
-Front-end: Typescript, Vue.js
+      <description>Nutrition Glance Link to heading You can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using various charts and diagrams. It&amp;rsquo;s a SPA (Single Page Application) where I used the following stack:
+Front-end: Typescript, Vue.js, TailwindCSS, Chart.js
 API Back-end: Laravel, MySQL</description>
     </item>
     
