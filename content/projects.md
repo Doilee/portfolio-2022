@@ -8,4 +8,8 @@ author = "Matthijs Dam"
 
 ![Nutrition Glance](/images/nutrition-glance.png "Nutrition Glance")
 
-Written in: `Typescript, Vue.js, Laravel, MySQL`
+SPA Written in:
+
+Front-end: `Typescript, Vue.js`
+
+API Back-end: `Laravel, MySQL`
