@@ -23,9 +23,8 @@ Here&amp;rsquo;s a simple example of how to parse and generate critical CSS usin
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.matthijsdam.nl/projects/</guid>
-      <description>Nutrition Glance Link to heading You can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using various charts and diagrams. It&amp;rsquo;s a SPA (Single Page Application) where I used the following stack:
-Front-end: Typescript, Vue.js, TailwindCSS, Chart.js
-API Back-end: Laravel, MySQL</description>
+      <description>Nutrition Glance Link to heading A side project you can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using various charts and diagrams. It&amp;rsquo;s a SPA (Single Page Application) where I used the following stack:
+Front-end: JSDoc (migrated from TypeScript), Vue.js, TailwindCSS, Chart.js API Back-end: Laravel, MySQL Phoenix Link to heading A company I have worked for over 3 years where I worked on numerous features inside the extremely powerful marketing funnel builder.</description>
     </item>
     
     <item>
@@ -34,9 +33,9 @@ API Back-end: Laravel, MySQL</description>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.matthijsdam.nl/about/</guid>
-      <description>I am dedicated to creating modern and intuitive web applications that improve society and our world. I have extensive experience with Laravel and Vue.js, two powerful tools that I use to build dynamic and interactive websites.
-My skills extend beyond just Laravel and Vue.js. I also have experience with Docker, Typescript, Redis, SEO optimization, DevOps, PHPUnit tests, and Go.
-I also happen to be a vegan and am committed to doing work that helps improve society and our world.</description>
+      <description>Dedicated to creating modern and intuitive web applications. I have extensive experience with Laravel and Vue.js.
+I also have experience with
+Typescript Linux Server Engineering DevOps (GitHub Actions/CircleCI) Docker PostgreSQL/MySQL/Redis SEO optimization PHPUnit tests Go (For fast API&amp;rsquo;s) Rust (For fast &amp;amp; simple API&amp;rsquo;s with very clear requirements) And many many more As a vegan I&amp;rsquo;m committed to doing work that helps improve society and our world. I believe that we all have a responsibility to take care of the inhabitants of mother earth, and I strive to use my skills to make a more positive impact.</description>
     </item>
     
   </channel>
