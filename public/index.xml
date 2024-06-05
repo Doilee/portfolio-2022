@@ -23,8 +23,9 @@ Here&amp;rsquo;s a simple example of how to parse and generate critical CSS usin
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.matthijsdam.nl/projects/</guid>
-      <description>Nutrition Glance Link to heading A side project you can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using various charts and diagrams. It&amp;rsquo;s a SPA (Single Page Application) where I used the following stack:
-Front-end: JSDoc (migrated from TypeScript), Vue.js, TailwindCSS, Chart.js API Back-end: Laravel, MySQL Phoenix Link to heading A company I have worked for over 3 years where I worked on numerous features inside the extremely powerful marketing funnel builder.</description>
+      <description>OpenPrio Link to heading My first professional client asked me to build a live dashboard for his client MRDH which shows the history and current position of all trams/metros/bus&amp;rsquo;es in the region of The Hague, Rotterdam and Delft.
+The front-end reads from the backend using WebSockets.
+Tech Stack: JSDoc, Svelte, TailwindCSS, MapLibre Nutrition Glance Link to heading A side project you can discover and learn about nutrition information on Nutrition Glance.</description>
     </item>
     
     <item>
