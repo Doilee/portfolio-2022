@@ -1,10 +1,26 @@
 +++
-description = "My projects"
-date = "2022-02-27"
+description = "My Work"
+date = "2025-04-20"
 author = "Matthijs Dam"
 +++
+# [Gemeente Amsterdam DMS & Meldingen](https://meldingen.amsterdam.nl/)
 
-# [OpenPrio](https://beta.openprio.nl)
+![Gemeente Amsterdam DMS & Meldingen](/images/amsterdam-meldingen.png "Amsterdam Meldingen")
+
+At the Municipality of Amsterdam I mainly worked on the document management system (DMS) for bridges and quay walls. I was responsible for completely rebuilding the front-end in React and migrating the application to the Azure cloud environment. In addition, I briefly supported the Signals team in developing an application for nuisance reports.
+
+- Tech Stack: `Symfony, React, Typescript, TailwindCSS, Microsoft Azure (DevOps)`
+
+# [Worn Out Vegan](https://wornoutvegan.com/)
+
+![Worn Out Vegan](/images/wornoutvegan.png "Worn Out Vegan")
+
+As the co-founder of Worn Out Vegan I've built the website in shopify, using a custom implementation of Glozin theme.
+
+- Skills: `Entrepeneurship, E-Commerce, Marketing, Advertising, Accounting`
+- Tech Stack: `Shopify, Liquid, Javascript`
+
+# [OpenPrio](https://openprio.nl)
 
 ![OpenPrio](/images/openprio.png "OpenPrio")
 
@@ -18,33 +34,26 @@ The front-end reads from the backend using WebSockets.
 
 ![Nutrition Glance](/images/nutrition-glance.png "Nutrition Glance")
 
-A side project you can discover and learn about nutrition information on [Nutrition Glance](https://nutritionglance.com). The data is taken from the USDA and shown using various charts and diagrams. It's a SPA (Single Page Application) where I used the following stack:
+A side project where you can discover and learn about nutrition information on [Nutrition Glance](https://nutritionglance.com). The data is taken from the USDA and shown using various charts and diagrams. It's a SPA (Single Page Application) where I used the following stack:
 
 - Front-end: `TypeScript, Vue.js, TailwindCSS, Chart.js`
 - API Back-end: `Laravel, MySQL`
 
 # [Phoenix](https://phoenixsite.nl)
 
-![Nutrition Glance](/images/phoenixsite.png "Phoenix")
+![Phoenixsite](/images/phoenixsite.png "Phoenix")
 
-A company I have worked for over 3 years where I worked on numerous features inside the extremely powerful marketing funnel builder.
+The same company behind Plug & Pay is where I have worked for over 3 years where I worked on numerous features inside the extremely powerful marketing funnel builder PhoenixSite.
 - Media Library
 - Blog builder
 - Forms builder
 - Comments Insights
-- Optimize SEO
+- Optimize Performance & SEO
 - DevOps tasks
-- And many many more
 
 For this project we've used the following stack:
 
 - Front-end: `Typescript, Vue.js, Sass`
 - API Back-end: `Laravel, MySQL, Node.js/Express`
 
-.
-
-.
-
-.
-
-There are many more projects I've worked (5+ additional professional working years), you can ask for my resume by contacting me.
+There are many more projects I've worked (5+ additional professional working years), you can ask for my resume or more details of these projects by emailing me at <ik@matthijsdam.nl>

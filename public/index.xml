@@ -6,7 +6,11 @@
     <description>Recent content on Matthijs Dam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.matthijsdam.nl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.matthijsdam.nl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Penthouse: automatically generate above-the-fold critical CSS</title>
       <link>https://www.matthijsdam.nl/posts/generate-critical-css/</link>
@@ -23,9 +27,9 @@ Here&amp;rsquo;s a simple example of how to parse and generate critical CSS usin
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.matthijsdam.nl/projects/</guid>
-      <description>OpenPrio Link to heading My first professional client asked me to build a live dashboard for his client MRDH which shows the history and current position of all trams/metros/bus&amp;rsquo;es in the region of The Hague, Rotterdam and Delft.
+      <description>OpenPrio My first professional client asked me to build a live dashboard for his client MRDH which shows the history and current position of all trams/metros/bus&amp;rsquo;es in the region of The Hague, Rotterdam and Delft.
 The front-end reads from the backend using WebSockets.
-Tech Stack: JSDoc, Svelte, TailwindCSS, MapLibre Nutrition Glance Link to heading A side project you can discover and learn about nutrition information on Nutrition Glance.</description>
+ Tech Stack: JSDoc, Svelte, TailwindCSS, MapLibre  Nutrition Glance A side project you can discover and learn about nutrition information on Nutrition Glance. The data is taken from the USDA and shown using various charts and diagrams.</description>
     </item>
     
     <item>
@@ -36,7 +40,7 @@ Tech Stack: JSDoc, Svelte, TailwindCSS, MapLibre Nutrition Glance Link to headin
       <guid>https://www.matthijsdam.nl/about/</guid>
       <description>Dedicated to creating modern and intuitive web applications. I have extensive experience with Laravel and Vue.js.
 I also have experience with
-Typescript Linux Server Engineering DevOps (GitHub Actions/CircleCI) Docker PostgreSQL/MySQL/Redis SEO optimization PHPUnit tests Go (For fast API&amp;rsquo;s) Rust (For fast &amp;amp; simple API&amp;rsquo;s with very clear requirements) And many many more As a vegan I&amp;rsquo;m committed to doing work that helps improve society and our world. I believe that we all have a responsibility to take care of the inhabitants of mother earth, and I strive to use my skills to make a more positive impact.</description>
+ Typescript Linux Server Engineering DevOps (GitHub Actions/CircleCI) Docker PostgreSQL/MySQL/Redis SEO optimization PHPUnit tests Go (For fast API&amp;rsquo;s) Rust (For fast &amp;amp; simple API&amp;rsquo;s with very clear requirements) And many many more  As a vegan I&amp;rsquo;m committed to doing work that helps improve society and our world. I believe that we all have a responsibility to take care of the inhabitants of mother earth, and I strive to use my skills to make a more positive impact.</description>
     </item>
     
   </channel>

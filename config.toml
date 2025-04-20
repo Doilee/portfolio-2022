@@ -16,8 +16,13 @@ author = "Matthijs Dam"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Matthijs Dam's personal website"
 keywords = "developer,personal,software,projects"
-info = ["Code Mage"
-#    , "Magician"
+info = [
+    "Full-Stack Developer"
+#    "Entrepeneur",
+#    "Backend Developer",
+#    "T-Shirt Designer",
+#    "Frontend Developer",
+#    "T-Shirt Designer",
 ]
 avatarURL = "images/matthijsdam.jpg"
 #gravatar = "john.doe@example.com"
