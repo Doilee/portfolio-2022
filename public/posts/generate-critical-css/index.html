@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>
+
+<head>
+  <title>
   Penthouse: automatically generate above-the-fold critical CSS · Matthijs Dam
 </title>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
 
@@ -15,6 +16,7 @@
 <meta name="description" content="Guide to generating critical CSS in your webapp using penthouse">
 <meta name="keywords" content="developer,personal,software,projects">
 
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Penthouse: automatically generate above-the-fold critical CSS"/>
 <meta name="twitter:description" content="Guide to generating critical CSS in your webapp using penthouse"/>
@@ -22,7 +24,7 @@
 <meta property="og:title" content="Penthouse: automatically generate above-the-fold critical CSS" />
 <meta property="og:description" content="Guide to generating critical CSS in your webapp using penthouse" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.matthijsdam.nl/posts/generate-critical-css/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://www.matthijsdam.nl/posts/generate-critical-css/" />
 <meta property="article:published_time" content="2022-12-11T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-12-11T00:00:00+00:00" />
 
@@ -32,22 +34,24 @@
 <link rel="canonical" href="https://www.matthijsdam.nl/posts/generate-critical-css/">
 
 
-<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+
+<link rel="stylesheet" href="/css/coder.min.edef5a7d4c899a57a9ae58f54338f0c19c686a7c214c009b382acb880bde929d.css" integrity="sha256-7e9afUyJmleprlj1QzjwwZxoanwhTACbOCrLiAvekp0=" crossorigin="anonymous" media="screen" />
+
+
+
+
 
 
   
-  
-  <link rel="stylesheet" href="/css/coder.min.7f9d180e3b3bebba9ba80d55eed1255c35e00764872854736d6ad7db38884ffc.css" integrity="sha256-f50YDjs767qbqA1V7tElXDXgB2SHKFRzbWrX2ziIT/w=" crossorigin="anonymous" media="screen" />
 
 
-
-
-
-
-  
-    
-    
-    <link rel="stylesheet" href="/css/coder-dark.min.216e36d3eaf6f4cdfd67dc1200c49a8169e6478102977b3e9ac51a064c57054c.css" integrity="sha256-IW420&#43;r29M39Z9wSAMSagWnmR4ECl3s&#43;msUaBkxXBUw=" crossorigin="anonymous" media="screen" />
+<link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -57,6 +61,7 @@
 
 
 
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
 <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
@@ -69,13 +74,12 @@
 
 
 
-<meta name="generator" content="Hugo 0.108.0">
 
 
 
 
 
-  </head>
+</head>
 
 
 
@@ -86,7 +90,7 @@
   
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
     </a>
 </div>
 
@@ -94,28 +98,10 @@
   <main class="wrapper">
     <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="/">
+    
+    <a class="navigation-title" href="https://www.matthijsdam.nl">
       Matthijs Dam
     </a>
-    
-      <input type="checkbox" id="menu-toggle" />
-      <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
-      </label>
-      <ul class="navigation-list">
-        
-          
-            <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About Me</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link" href="/projects">Projects</a>
-            </li>
-          
-        
-        
-      </ul>
     
   </section>
 </nav>
@@ -136,20 +122,20 @@
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
               <time datetime="2022-12-11T00:00:00Z">
                 December 11, 2022
               </time>
             </span>
             <span class="reading-time">
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               2-minute read
             </span>
           </div>
           
           
           <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
       <a href="/tags/seo/">seo</a>
     </span></div>
@@ -157,42 +143,42 @@
         </div>
       </header>
 
-      <div>
+      <div class="post-content">
         
         <p>Parsing and generating critical CSS can be a useful technique for improving the performance of your website. Critical CSS refers to the portion of your stylesheets that are necessary for rendering the above-the-fold content of your webpage. By extracting this critical CSS and inlining it into the head of your HTML document, you can ensure that your page is rendered quickly and efficiently.</p>
-<p>Here&rsquo;s a simple example of how to parse and generate critical CSS using <a href="https://www.npmjs.com/package/penthouse">penthouse</a>:</p>
+<p>Here&rsquo;s a simple example of how to parse and generate critical CSS using <a href="https://www.npmjs.com/package/penthouse"  class="external-link" target="_blank" rel="noopener">penthouse</a>:</p>
 <p>First, you&rsquo;ll need to install the package from npm:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install penthouse
-</span></span></code></pre></div><p>Next, you can use the penthouse module to extract the critical CSS for a given URL like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">penthouse</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;penthouse&#39;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Load the URL of the page you want to extract critical CSS from
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://www.example.com&#39;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Extract the critical CSS
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">penthouse</span>({
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1300</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">900</span>
-</span></span><span style="display:flex;"><span>}, (<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">criticalCss</span>) =&gt; {
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Output the critical CSS to the console
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">criticalCss</span>);
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>The penthouse function takes two arguments: an options object and a callback function. The options object allows you to specify the URL of the page to extract critical CSS from, as well as the width and height of the viewport. The callback function will be called once the critical CSS has been extracted, and it will be passed two arguments: an error object (which will be null if there are no errors), and the extracted critical CSS.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm install penthouse
+</code></pre></div><p>Next, you can use the penthouse module to extract the critical CSS for a given URL like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">penthouse</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;penthouse&#39;</span>);
+
+<span style="color:#75715e">// Load the URL of the page you want to extract critical CSS from
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://www.example.com&#39;</span>;
+
+<span style="color:#75715e">// Extract the critical CSS
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">penthouse</span>({
+    <span style="color:#a6e22e">url</span>,
+    <span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1300</span>,
+    <span style="color:#a6e22e">height</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">900</span>
+}, (<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">criticalCss</span>) =&gt; {
+<span style="color:#75715e">// Output the critical CSS to the console
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">criticalCss</span>);
+});
+</code></pre></div><p>The penthouse function takes two arguments: an options object and a callback function. The options object allows you to specify the URL of the page to extract critical CSS from, as well as the width and height of the viewport. The callback function will be called once the critical CSS has been extracted, and it will be passed two arguments: an error object (which will be null if there are no errors), and the extracted critical CSS.</p>
 <p>Once you have the critical CSS, you can inline it into the head of your HTML document like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">style</span>&gt;
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">/* Paste the critical CSS here */</span>
-</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">style</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>    ...
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
-</span></span></code></pre></div><p>Inlining the critical CSS like this ensures that it will be applied to the above-the-fold content of your page as soon as it is loaded, allowing your page to render quickly and efficiently.</p>
-<p>Keep in mind that this is just a simple example of how to parse and generate critical CSS using Javascript. There are many other options and configurations that you can use to customize the process to suit your needs. For more information, be sure to check out the <a href="https://www.npmjs.com/package/penthouse">penthouse</a> package on npm.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+  &lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">style</span>&gt;
+      <span style="color:#75715e">/* Paste the critical CSS here */</span>
+    &lt;/<span style="color:#f92672">style</span>&gt;
+  &lt;/<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">body</span>&gt;
+    ...
+  &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><p>Inlining the critical CSS like this ensures that it will be applied to the above-the-fold content of your page as soon as it is loaded, allowing your page to render quickly and efficiently.</p>
+<p>Keep in mind that this is just a simple example of how to parse and generate critical CSS using Javascript. There are many other options and configurations that you can use to customize the process to suit your needs. For more information, be sure to check out the <a href="https://www.npmjs.com/package/penthouse"  class="external-link" target="_blank" rel="noopener">penthouse</a> package on npm.</p>
 
       </div>
 
@@ -201,6 +187,10 @@
         
 
 
+        
+        
+        
+        
         
         
         
@@ -216,11 +206,11 @@
   <section class="container">
     ©
     
-    2024
+    2025
      Matthijs Dam 
     ·
     
-    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
     
   </section>
 </footer>
@@ -231,7 +221,28 @@
 
   
   
-  <script src="/js/coder.min.27afce394fb6284f521b3fbc9f6a8326342333c3092267f3944d770489876fed.js" integrity="sha256-J6/OOU&#43;2KE9SGz&#43;8n2qDJjQjM8MJImfzlE13BImHb&#43;0="></script>
+  <script src="/js/coder.min.b764d18be7e43ab6b14e5ae4a9ebc7a6d3c333faa951aa702200a71d62264190.js" integrity="sha256-t2TRi&#43;fkOraxTlrkqevHptPDM/qpUapwIgCnHWImQZA="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -252,5 +263,4 @@
 
   
 </body>
-
 </html>
