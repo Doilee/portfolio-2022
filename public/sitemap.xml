@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.matthijsdam.nl/projects/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.matthijsdam.nl/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.matthijsdam.nl/about/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.matthijsdam.nl/posts/generate-critical-css/</loc>
     <lastmod>2022-12-11T00:00:00+00:00</lastmod>
   </url>
@@ -20,21 +35,6 @@
   <url>
     <loc>https://www.matthijsdam.nl/tags/</loc>
     <lastmod>2022-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matthijsdam.nl/projects/</loc>
-    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matthijsdam.nl/</loc>
-    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.matthijsdam.nl/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
